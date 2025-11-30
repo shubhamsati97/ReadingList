@@ -128,14 +128,28 @@ function createBookCard(book, statusInfo) {
   // Determine cover color class based on data or random/hash
   const coverColor = book.coverColor || 'blue';
 
+  const baseUrl = import.meta.env.BASE_URL;
+
+  // Use thumbnail if available, otherwise use colored background
+  const bookCoverHTML = book.thumbnail
+    ? `<div class="book-cover with-image">
+         <img src="${baseUrl}${book.thumbnail.startsWith('/') ? book.thumbnail.slice(1) : book.thumbnail}" alt="${book.title}" class="book-thumbnail" />
+         <span class="book-status-badge">${statusLabel}</span>
+         <div class="book-info-overlay">
+           <h3 class="book-title">${book.title}</h3>
+           <p class="book-author">${book.author}</p>
+         </div>
+       </div>`
+    : `<div class="book-cover ${coverColor}">
+         <span class="book-status-badge">${statusLabel}</span>
+         <div class="book-info-overlay">
+           <h3 class="book-title">${book.title}</h3>
+           <p class="book-author">${book.author}</p>
+         </div>
+       </div>`;
+
   card.innerHTML = `
-    <div class="book-cover ${coverColor}">
-      <span class="book-status-badge">${statusLabel}</span>
-      <div class="book-info-overlay">
-        <h3 class="book-title">${book.title}</h3>
-        <p class="book-author">${book.author}</p>
-      </div>
-    </div>
+    ${bookCoverHTML}
     <div class="book-details">
       <div class="book-meta">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>

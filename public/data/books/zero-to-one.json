@@ -1,0 +1,16 @@
+{
+    "id": "zero-to-one",
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "category": "Business",
+    "tags": [
+        "startups",
+        "innovation",
+        "entrepreneurship",
+        "technology"
+    ],
+    "notes": "Notes on startups, or how to build the future.",
+    "summaryAvailable": false,
+    "coverColor": "purple",
+    "thumbnail": "/covers/zero-to-one.png"
+}

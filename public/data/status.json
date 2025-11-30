@@ -1,32 +1,27 @@
 {
-    "deep-work": {
-        "status": "reading",
-        "startedAt": "2023-10-01",
-        "finishedAt": null
-    },
-    "mindset": {
-        "status": "reading",
-        "startedAt": "2023-10-05",
-        "finishedAt": null
-    },
-    "atomic-habits": {
-        "status": "completed",
-        "startedAt": "2023-09-01",
-        "finishedAt": "2023-09-20"
-    },
-    "power-of-now": {
-        "status": "completed",
-        "startedAt": "2023-08-15",
-        "finishedAt": "2023-08-30"
-    },
-    "thinking-fast-slow": {
+    "dont-believe-everything": {
         "status": "toread",
         "startedAt": null,
         "finishedAt": null
     },
-    "7-habits": {
+    "101-essays": {
         "status": "toread",
         "startedAt": null,
+        "finishedAt": null
+    },
+    "almanack-naval": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "principles": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "zero-to-one": {
+        "status": "reading",
+        "startedAt": "2025-11-30",
         "finishedAt": null
     }
 }

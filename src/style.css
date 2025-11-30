@@ -286,6 +286,35 @@ body {
   background: linear-gradient(135deg, #00C853 0%, #00695C 100%);
 }
 
+.book-cover.with-image {
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+.book-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.book-cover.with-image .book-status-badge,
+.book-cover.with-image .book-info-overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.book-cover.with-image .book-info-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.5) 50%, transparent 100%);
+  padding: 20px;
+  margin: 0;
+}
+
+
 .book-status-badge {
   align-self: flex-start;
   padding: 4px 12px;

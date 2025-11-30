@@ -1,0 +1,15 @@
+{
+    "id": "101-essays",
+    "title": "101 Essays That Will Change the Way You Think",
+    "author": "Brianna Wiest",
+    "category": "Self-Help",
+    "tags": [
+        "personal-development",
+        "philosophy",
+        "mindfulness"
+    ],
+    "notes": "A collection of powerful essays on self-improvement, mental health, and personal growth.",
+    "summaryAvailable": false,
+    "coverColor": "purple",
+    "thumbnail": "/covers/101-essays.png"
+}
