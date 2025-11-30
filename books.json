@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "status": "reading",
+    "category": "Productivity",
+    "tags": ["productivity", "focus", "work"],
+    "notes": "Learning to focus deeply in a distracted world.",
+    "summaryAvailable": false,
+    "coverColor": "red"
+  },
+  {
+    "id": 2,
+    "title": "Mindset",
+    "author": "Carol Dweck",
+    "status": "reading",
+    "category": "Psychology",
+    "tags": ["psychology", "personal-development", "growth"],
+    "notes": "The power of believing you can improve.",
+    "summaryAvailable": false,
+    "coverColor": "blue"
+  },
+  {
+    "id": 3,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "status": "completed",
+    "category": "Self-Help",
+    "tags": ["productivity", "habits", "personal-development"],
+    "notes": "Great insights on building better habits through small changes.",
+    "summaryAvailable": true,
+    "coverColor": "blue"
+  },
+  {
+    "id": 4,
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "status": "completed",
+    "category": "Spirituality",
+    "tags": ["mindfulness", "personal-development", "spirituality"],
+    "notes": "Transformative guide to living in the present moment.",
+    "summaryAvailable": true,
+    "coverColor": "purple"
+  },
+  {
+    "id": 5,
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "status": "toread",
+    "category": "Psychology",
+    "tags": ["psychology", "decision-making", "personal-development"],
+    "notes": "Understanding how we think and make decisions.",
+    "summaryAvailable": false,
+    "coverColor": "blue"
+  },
+  {
+    "id": 6,
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen Covey",
+    "status": "toread",
+    "category": "Self-Help",
+    "tags": ["productivity", "personal-development", "leadership"],
+    "notes": "Classic book on personal effectiveness.",
+    "summaryAvailable": false,
+    "coverColor": "purple"
+  }
+]
