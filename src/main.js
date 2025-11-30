@@ -46,19 +46,20 @@ async function init() {
 
 // Fetch Data
 async function fetchData() {
+  const baseUrl = import.meta.env.BASE_URL;
+
   // 1. Fetch Status
-  const statusRes = await fetch('/data/status.json');
+  const statusRes = await fetch(`${baseUrl}data/status.json`);
   state.status = await statusRes.json();
 
-  // 2. Fetch Library Index (optional, can just use status keys)
-  // But let's use the index if we want to support books without status or just to be safe
-  const libraryRes = await fetch('/data/library.json');
+  // 2. Fetch Library Index
+  const libraryRes = await fetch(`${baseUrl}data/library.json`);
   const libraryIds = await libraryRes.json();
 
   // 3. Fetch Book Details in parallel
   const bookPromises = libraryIds.map(async (id) => {
     try {
-      const res = await fetch(`/data/books/${id}.json`);
+      const res = await fetch(`${baseUrl}data/books/${id}.json`);
       const book = await res.json();
       return { id, ...book };
     } catch (e) {
@@ -68,7 +69,7 @@ async function fetchData() {
   });
 
   const books = await Promise.all(bookPromises);
-  
+
   // Populate state.books
   books.forEach(book => {
     if (book) {
@@ -99,9 +100,9 @@ function renderStats() {
 // Render Books
 function renderBooks() {
   elements.grid.innerHTML = '';
-  
+
   const bookIds = Object.keys(state.books);
-  
+
   const filteredIds = bookIds.filter(id => {
     if (state.filter === 'all') return true;
     const bookStatus = state.status[id]?.status;
@@ -123,7 +124,7 @@ function createBookCard(book, statusInfo) {
 
   const status = statusInfo?.status || 'unknown';
   const statusLabel = status === 'toread' ? 'To Read' : status;
-  
+
   // Determine cover color class based on data or random/hash
   const coverColor = book.coverColor || 'blue';
 
@@ -172,7 +173,7 @@ function openModal(bookId) {
   // Let's add inline style or reuse classes. 
   // Actually, let's just add the class to the header element and ensure CSS handles it.
   // In CSS I defined .book-cover.red, let's add .modal-header.red
-  
+
   // Wait, I need to add those classes to CSS for modal-header too.
   // I'll update CSS or just use inline style for now to match the card.
   // Let's use the classes I defined: .book-cover.red
@@ -183,7 +184,7 @@ function openModal(bookId) {
   // I'll add a quick style update in JS or just let it be default for now?
   // No, premium design needs it.
   // I'll use `style` attribute for the gradient.
-  
+
   const gradients = {
     red: 'linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%)',
     blue: 'linear-gradient(135deg, #304FFE 0%, #1A237E 100%)',
@@ -231,7 +232,7 @@ function setupEventListeners() {
       // Update UI
       elements.filterBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      
+
       // Update State
       state.filter = btn.dataset.filter;
       renderBooks();
@@ -244,7 +245,7 @@ function setupEventListeners() {
   elements.modal.overlay.addEventListener('click', (e) => {
     if (e.target === elements.modal.overlay) closeModal();
   });
-  
+
   // Escape key
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && elements.modal.overlay.classList.contains('active')) {
