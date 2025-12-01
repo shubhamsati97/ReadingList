@@ -1,0 +1,17 @@
+{
+    "id": "arthashastra",
+    "title": "Arthashastra",
+    "author": "Kautilya",
+    "category": "Politics",
+    "tags": [
+        "politics",
+        "philosophy",
+        "history",
+        "strategy"
+    ],
+    "notes": "An ancient Indian treatise on statecraft, economic policy, and military strategy.",
+    "summaryAvailable": false,
+    "coverColor": "gold",
+    "thumbnail": "/covers/arthashastra.jpg",
+    "totalPages": 500
+}

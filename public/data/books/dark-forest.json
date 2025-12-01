@@ -1,0 +1,17 @@
+{
+    "id": "dark-forest",
+    "title": "The Dark Forest",
+    "author": "Cixin Liu",
+    "category": "Sci-Fi",
+    "tags": [
+        "sci-fi",
+        "aliens",
+        "strategy",
+        "philosophy"
+    ],
+    "notes": "The second novel in the trilogy, introducing the Dark Forest hypothesis as a solution to the Fermi Paradox.",
+    "summaryAvailable": false,
+    "coverColor": "darkblue",
+    "thumbnail": "/covers/dark-forest.jpg",
+    "totalPages": 512
+}

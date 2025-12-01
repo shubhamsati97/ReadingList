@@ -1,0 +1,17 @@
+{
+    "id": "wealth-of-nations",
+    "title": "The Wealth of Nations",
+    "author": "Adam Smith",
+    "category": "Economics",
+    "tags": [
+        "economics",
+        "philosophy",
+        "politics",
+        "classics"
+    ],
+    "notes": "A foundational text in classical economics, advocating for free markets and the division of labor.",
+    "summaryAvailable": false,
+    "coverColor": "brown",
+    "thumbnail": "/covers/wealth-of-nations.jpg",
+    "totalPages": 624
+}

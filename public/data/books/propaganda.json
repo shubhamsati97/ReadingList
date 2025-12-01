@@ -1,0 +1,17 @@
+{
+    "id": "propaganda",
+    "title": "Propaganda",
+    "author": "Edward Bernays",
+    "category": "Politics",
+    "tags": [
+        "psychology",
+        "politics",
+        "media",
+        "society"
+    ],
+    "notes": "The seminal work on how public opinion is shaped and manipulated in a democratic society.",
+    "summaryAvailable": false,
+    "coverColor": "red",
+    "thumbnail": "/covers/propaganda.jpg",
+    "totalPages": 168
+}

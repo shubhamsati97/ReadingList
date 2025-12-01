@@ -1,0 +1,17 @@
+{
+    "id": "three-body-problem",
+    "title": "The Three-Body Problem",
+    "author": "Cixin Liu",
+    "category": "Sci-Fi",
+    "tags": [
+        "sci-fi",
+        "aliens",
+        "physics",
+        "china"
+    ],
+    "notes": "The first novel in the Remembrance of Earth's Past trilogy, exploring humanity's first contact with an alien civilization.",
+    "summaryAvailable": false,
+    "coverColor": "black",
+    "thumbnail": "/covers/three-body-problem.jpg",
+    "totalPages": 400
+}

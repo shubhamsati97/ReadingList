@@ -79,5 +79,70 @@
         "status": "toread",
         "startedAt": null,
         "finishedAt": null
+    },
+    "wealth-of-nations": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "never-split-difference": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "arthashastra": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "creative-act": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "hindus-in-hindu-rashtra": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "why-bharat-matters": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "mahagatha": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "purnam": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "make-your-bed": {
+        "status": "completed",
+        "startedAt": null,
+        "finishedAt": "2025-11-30"
+    },
+    "propaganda": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "three-body-problem": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "dark-forest": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
+    },
+    "deaths-end": {
+        "status": "toread",
+        "startedAt": null,
+        "finishedAt": null
     }
 }
