@@ -1,0 +1,17 @@
+{
+    "id": "philosophy-101",
+    "title": "Philosophy 101",
+    "author": "Paul Kleinman",
+    "category": "Philosophy",
+    "tags": [
+        "philosophy",
+        "history",
+        "education",
+        "thought"
+    ],
+    "notes": "An accessible primer on the history of thought, from Plato and Socrates to ethics and metaphysics.",
+    "summaryAvailable": false,
+    "coverColor": "blue",
+    "thumbnail": "/covers/philosophy-101.png",
+    "totalPages": 288
+}

@@ -1,0 +1,17 @@
+{
+    "id": "thinking-fast-slow",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "category": "Psychology",
+    "tags": [
+        "psychology",
+        "decision-making",
+        "behavioral-economics",
+        "business"
+    ],
+    "notes": "An exploration of the two systems that drive the way we think: System 1 (fast, intuitive) and System 2 (slow, deliberative).",
+    "summaryAvailable": false,
+    "coverColor": "blue",
+    "thumbnail": "/covers/thinking-fast-slow.png",
+    "totalPages": 499
+}

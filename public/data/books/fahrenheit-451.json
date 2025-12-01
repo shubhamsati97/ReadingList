@@ -1,0 +1,17 @@
+{
+    "id": "fahrenheit-451",
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "category": "Fiction",
+    "tags": [
+        "fiction",
+        "classics",
+        "sci-fi",
+        "dystopian"
+    ],
+    "notes": "A story about a future where books are outlawed and 'firemen' burn any that are found.",
+    "summaryAvailable": false,
+    "coverColor": "red",
+    "thumbnail": "/covers/fahrenheit-451.png",
+    "totalPages": 158
+}

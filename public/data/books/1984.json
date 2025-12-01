@@ -1,0 +1,17 @@
+{
+    "id": "1984",
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "Fiction",
+    "tags": [
+        "fiction",
+        "classics",
+        "dystopian",
+        "politics"
+    ],
+    "notes": "A chilling dystopian novel about a totalitarian regime, surveillance, and the manipulation of truth.",
+    "summaryAvailable": false,
+    "coverColor": "red",
+    "thumbnail": "/covers/1984.png",
+    "totalPages": 328
+}
