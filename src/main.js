@@ -166,6 +166,17 @@ function createBookCard(book, statusInfo) {
           Summary available
         </div>
       ` : ''}
+      ${status === 'reading' && statusInfo?.pagesRead !== undefined && book.totalPages ? `
+        <div class="progress-container">
+          <div class="progress-label">
+            <span>Reading Progress</span>
+            <span>${statusInfo.pagesRead} / ${book.totalPages} pages (${Math.round((statusInfo.pagesRead / book.totalPages) * 100)}%)</span>
+          </div>
+          <div class="progress-bar-wrapper">
+            <div class="progress-bar-fill" style="width: ${Math.min((statusInfo.pagesRead / book.totalPages) * 100, 100)}%"></div>
+          </div>
+        </div>
+      ` : ''}
     </div>
   `;
 
@@ -218,6 +229,17 @@ function openModal(bookId) {
         <span class="modal-badge">${statusLabel}</span>
         <span class="modal-badge">${book.category}</span>
       </div>
+      ${status === 'reading' && statusInfo?.pagesRead !== undefined && book.totalPages ? `
+        <div class="modal-progress">
+          <div class="progress-label" style="color: white; margin-top: 15px;">
+            <span>Reading Progress</span>
+            <span>${statusInfo.pagesRead} / ${book.totalPages} pages (${Math.round((statusInfo.pagesRead / book.totalPages) * 100)}%)</span>
+          </div>
+          <div class="progress-bar-wrapper">
+            <div class="progress-bar-fill" style="width: ${Math.min((statusInfo.pagesRead / book.totalPages) * 100, 100)}%"></div>
+          </div>
+        </div>
+      ` : ''}
     </div>
   `;
 
